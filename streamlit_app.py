@@ -28,3 +28,4 @@ for fact in env.facts():
         results.append(fact['name']) #why assert the fact?
 
 st.write(results[0],"better output")
+
